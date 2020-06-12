@@ -6,8 +6,11 @@ Rails:
 
   AllCops:
   Exclude:
-    - 'bin/**'
+   - 'bin/**'
     - 'config/**/*'
+    - 'config/environments/*'
+    - 'config/application.rb'
+    - 'config/initializers/*'
     - 'db/**/*'
     - 'vendor/**/**/*'
     - 'spec/*'
