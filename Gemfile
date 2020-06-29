@@ -76,8 +76,11 @@ group :development, :test do
   gem 'rubocop-airbnb'
   gem "factory_bot_rails", "~> 4.10.0"
   gem 'rubocop-airbnb'
+  gem "factory_bot_rails", "~> 4.10.0" 
 end
 
 gem 'devise'
 
 gem 'bootstrap-sass'
+
+gem 'faker'
